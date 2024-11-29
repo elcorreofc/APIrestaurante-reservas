@@ -1,26 +1,3 @@
-API de Reservas de Mesa
-Este projeto implementa uma API RESTful simples para gerenciar reservas de mesa. A API permite agendar, listar, atualizar e excluir reservas de mesa em um restaurante, usando Node.js com o Express.
-
-Funcionalidades
-POST /agendar: Cria uma nova reserva de mesa.
-GET /reservas: Retorna todas as reservas.
-GET /reservas/:id: Retorna uma reserva específica, com base no ID.
-PUT /reservas/:id: Atualiza uma reserva existente.
-DELETE /reservas/:id: Deleta uma reserva.
-Pré-requisitos
-Antes de rodar o projeto, você precisará ter o Node.js e o npm instalados em sua máquina.
-
-Como instalar o Node.js e o npm
-Acesse o site oficial do Node.js.
-
-Baixe e instale a versão LTS (Long Term Support), que é recomendada.
-
-Após a instalação, você pode verificar se o Node.js e o npm foram instalados corretamente, executando os seguintes comandos no terminal:
-
-bash
-Copiar código
-node -v
-npm -v
 Como rodar o projeto
 1. Clonar o repositório
 Clone este repositório para sua máquina local:
@@ -101,8 +78,4 @@ Envie a branch para o seu repositório (git push origin minha-nova-funcionalidad
 Abra um pull request neste repositório.
 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais informações.
-
-Este README.md cobre os aspectos principais do projeto, como instalação, execução e exemplos de uso da API, além de fornecer instruções para contribuir com o código.
-
-
 
